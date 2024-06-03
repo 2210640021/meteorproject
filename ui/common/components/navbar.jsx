@@ -17,27 +17,22 @@ export function Navbar() {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue('white', 'gray.800')}
+        bg={useColorModeValue('teal', 'teal.400')}
         color={useColorModeValue('gray.600', 'white')}
         minH="60px"
         py={{ base: 2 }}
         px={{ base: 4 }}
         borderBottom={1}
         borderStyle="solid"
-        borderColor={useColorModeValue('gray.200', 'gray.900')}
+        borderColor={useColorModeValue('green.600', 'green.600')}
         align="center"
       >
         <Flex flex={{ base: 1 }} justify="start">
-          <Text
-            as="span"
-            bgGradient="linear(to-l, #675AAA, #4399E1)"
-            bgClip="text"
-            fontWeight="bold"
-            fontFamily="heading"
-            textAlign="left"
-          >
-            Simple Tasks
-          </Text>
+        <img src="/mainlogo.png" alt="logo" width="100" height="60" />
+	<Box textAlign="center" w="100%" marginTop={8}>
+        <Text color="green.600" fontSize="xl">Willkommen auf meiner Website!</Text>
+	</Box>
+
         </Flex>
 
         <Stack
