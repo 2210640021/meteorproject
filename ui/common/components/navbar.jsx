@@ -30,7 +30,7 @@ export function Navbar() {
         <Flex flex={{ base: 1 }} justify="start">
         <img src="/mainlogo.png" alt="logo" width="100" height="60" />
 	<Box textAlign="center" w="100%" marginTop={8}>
-        <Text color="green.600" fontSize="xl">Willkommen auf meiner Website!</Text>
+        <Text color="gray.600" fontSize="xl">Willkommen auf meiner Website!</Text>
 	</Box>
 
         </Flex>
